@@ -8,7 +8,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/profile', [ProfileController::class, 'profile']);
 
