@@ -8,7 +8,6 @@ class ProfileController extends Controller
 {
     public function profile()
     {
-        return view ('profile',['name' => 'Isaac Intouch']);
+        return view('profile', ['name' => 'Isaac Intouch']);
     }
 }
-
